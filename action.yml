@@ -24,7 +24,7 @@ runs:
       uses: actions/checkout@v4
 
     - name: Setup pnpm ${{ inputs.pnpm-version }}
-      uses: pnpm/action-setup@v2
+      uses: pnpm/action-setup@v4
       with:
         version: ${{ inputs.pnpm-version }}
         run_install: false
